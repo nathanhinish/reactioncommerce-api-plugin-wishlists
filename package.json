@@ -1,27 +1,27 @@
 {
-  "name": "@reactioncommerce/api-plugin-example",
-  "description": "Boilerplate Example plugin for the Reaction API",
-  "version": "0.0.0-development",
+  "name": "@nathanhinish/reactioncommerce-api-plugin-wishlists",
+  "description": "Wishlist plugin for the Reaction API",
+  "version": "0.0.1",
   "main": "index.js",
   "type": "module",
   "engines": {
     "node": ">=12.14.1"
   },
-  "homepage": "https://github.com/reactioncommerce/api-plugin-example",
-  "url": "https://github.com/reactioncommerce/api-plugin-example",
-  "email": "engineering@reactioncommerce.com",
+  "homepage": "https://github.com/nathanhinish/reactioncommerce-api-plugin-wishlists",
+  "url": "https://github.com/nathanhinish/reactioncommerce-api-plugin-wishlists",
+  "email": "nathan.hinish@gmail.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reactioncommerce/api-plugin-example.git"
+    "url": "git+https://github.com/nathanhinish/reactioncommerce-api-plugin-wishlists.git"
   },
   "author": {
-    "name": "Reaction Commerce",
-    "email": "engineering@reactioncommerce.com",
-    "url": "https://reactioncommerce.com"
+    "name": "Nathan Hinish",
+    "email": "nathan.hinish@gmail.com",
+    "url": "https://n8d.io"
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/reactioncommerce/api-plugin-example/issues"
+    "url": "https://github.com/nathanhinish/reactioncommerce-api-plugin-wishlists/issues"
   },
   "sideEffects": false,
   "dependencies": {
