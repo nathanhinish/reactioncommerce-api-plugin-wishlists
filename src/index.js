@@ -7,8 +7,17 @@ import pkg from "../package.json";
  */
 export default async function register(app) {
   await app.registerPlugin({
-    label: "Plugin Example",
-    name: "plugin-example",
-    version: pkg.version
+    label: "Wishlists",
+    name: "wishlists",
+    version: pkg.version,
+
+    collections: {
+      Wishlists: {
+        name: 'Wishlists',
+        indexes: [
+          [{accounts: 1}, {name: 'w2_accounts'}]
+        ]
+      }
+    }
   });
 }

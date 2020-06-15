@@ -23,6 +23,7 @@ type Wishlist implements Node, Deletable {
   account: Account;
   name: String;
   description: String;
+  createdAt: DateTime!;
 }
 
 extend type Query {
