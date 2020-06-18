@@ -1,8 +1,9 @@
-import { encodeProductOpaqueId } from "../../xforms/id.js";
+import { encodeWishlistOpaqueId } from "../../xforms/id.js";
 
 export default {
-  _id: (node) => encodeProductOpaqueId(node._id),
+  _id: (node) => encodeWishlistOpaqueId(node._id),
   entries: (node) => node.entries,
   name: (node) => node.name,
+  isVisible: (node) => node.isVisible,
   description: (node) => node.description
 };
